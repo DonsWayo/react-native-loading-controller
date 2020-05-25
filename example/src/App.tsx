@@ -6,7 +6,7 @@ export default function App() {
 	return (
 		<View style={styles.container}>
 			<Text>This is a demo of the LoadingController</Text>
-			<LoadingController visible={true} />
+			<LoadingController show={true} />
 		</View>
 	);
 }
