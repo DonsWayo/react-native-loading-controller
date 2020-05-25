@@ -1,0 +1,16 @@
+{
+    "parser": "babel-eslint",
+    "plugins": [
+      "react-native",
+      "react"
+    ],
+    "rules": {
+      "react-native/no-inline-styles": "off"
+    },
+    "env": {
+      "node": true
+    },
+    "globals": {
+      "fetch": true
+    }
+  }
