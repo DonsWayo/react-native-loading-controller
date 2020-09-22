@@ -10,7 +10,7 @@ npm install react-native-loading-controller
 
 ## Usage
 
-```js
+```tsx
 import { LoadingController } from 'react-native-loading-controller';
 
 export default function App() {
@@ -22,6 +22,21 @@ export default function App() {
 	);
 }
 ```
+
+## Props
+```ts
+ show: boolean;
+  loadingText?: string;
+  backgroundOverlayColor?: string;
+  backgroundColor?: string;
+  indicatorSize?: "large" | "small";
+  fontWeight?: "normal" | "bold" | "100" | "200" | "300" | "400" | "500" | "600" | "700" | "800" | "900";
+  loadingPaddingView?: number;
+  borderRadius?: number;
+  loadingTextMargin?: string;
+  indicatorColor?: string;
+  loaderContentDirection?: "row" | "column" | "row-reverse" | "column-reverse";
+  ```
 
 ## Contributing
 
