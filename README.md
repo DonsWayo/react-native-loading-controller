@@ -11,11 +11,16 @@ npm install react-native-loading-controller
 ## Usage
 
 ```js
-import LoadingController from "react-native-loading-controller";
+import { LoadingController } from 'react-native-loading-controller';
 
-// ...
-
-const result = await LoadingController.multiply(3, 7);
+export default function App() {
+	return (
+		<View style={styles.container}>
+			<Text>This is a demo of the LoadingController</Text>
+			<LoadingController show={true} />
+		</View>
+	);
+}
 ```
 
 ## Contributing
