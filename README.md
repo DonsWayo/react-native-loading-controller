@@ -25,7 +25,8 @@ export default function App() {
 
 ## Props
 ```ts
- show: boolean;
+ interface Props {
+  show: boolean;
   loadingText?: string;
   backgroundOverlayColor?: string;
   backgroundColor?: string;
@@ -36,7 +37,8 @@ export default function App() {
   loadingTextMargin?: string;
   indicatorColor?: string;
   loaderContentDirection?: "row" | "column" | "row-reverse" | "column-reverse";
-  ```
+}
+ ```
 
 ## Contributing
 
